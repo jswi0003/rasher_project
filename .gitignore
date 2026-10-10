@@ -218,3 +218,7 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Downloaded datasets: keep the folder's README, ignore everything else
+data/*
+!data/README.md
