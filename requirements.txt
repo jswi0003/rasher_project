@@ -1,0 +1,28 @@
+# Python 3.12.4
+# Recreate with: pip install -r requirements.txt
+
+# Package                 Version
+
+ImageHash==               4.3.2
+
+ipykernel==               7.4.0
+
+matplotlib==              3.11.2
+
+numpy==                   2.5.3
+
+pandas==                  3.0.6
+
+pdoc==                    16.0.0
+
+pillow==                  12.3.0
+
+pytest==                  9.1.1
+
+pytest-html==             4.2.0
+
+PyYAML==                  6.0.3
+
+roboflow==                1.7.1
+
+ultralytics==             8.4.175
