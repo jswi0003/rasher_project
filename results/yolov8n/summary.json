@@ -1,0 +1,87 @@
+{
+  "settings": {
+    "weights": "yolov8n.pt",
+    "name": "yolov8n",
+    "epochs": "50",
+    "imgsz": "640",
+    "batch": "16",
+    "seed": "0",
+    "fraction": "1.0",
+    "min_recall": "0.95",
+    "dataset": "C:\\Users\\JHSwi\\Downloads\\MMA3001\\rasher_project\\data\\pork-rasher-error-packaging-v4",
+    "skip_train": "False",
+    "test": "False"
+  },
+  "device": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "train_seconds": 1639.8199991999427,
+  "weights": "C:\\Users\\JHSwi\\Downloads\\MMA3001\\rasher_project\\results\\runs\\yolov8n\\weights\\best.pt",
+  "weights_mb": 6.496362,
+  "val_detection": {
+    "map50": 0.6684436230794434,
+    "map50_95": 0.41480788154874204,
+    "precision": 0.6302903897747417,
+    "recall": 0.6720225127087872,
+    "per_class": {
+      "loose-meat": {
+        "ap50": 0.665,
+        "ap50_95": 0.4325,
+        "precision": 0.9370114598916592,
+        "recall": 0.6666666666666666
+      },
+      "packaging-error": {
+        "ap50": 0.4113989174438798,
+        "ap50_95": 0.1255310013276636,
+        "precision": 0.29350241685762785,
+        "recall": 0.4411764705882353
+      },
+      "twisted-meat": {
+        "ap50": 0.665,
+        "ap50_95": 0.48224999999999996,
+        "precision": 0.4424773405898321,
+        "recall": 0.6666666666666666
+      },
+      "unsealed": {
+        "ap50": 0.9323755748738939,
+        "ap50_95": 0.6189505248673047,
+        "precision": 0.8481703417598476,
+        "recall": 0.9135802469135802
+      }
+    },
+    "speed_ms": {
+      "preprocess": 1.8206899985671043,
+      "inference": 5.713203334016725,
+      "loss": 0.01085499922434489,
+      "postprocess": 4.062229167902842
+    }
+  },
+  "val_tray": {
+    "n_images": 120,
+    "n_defective": 106,
+    "threshold": 0.2,
+    "model": {
+      "tp": 102,
+      "fn": 4,
+      "fp": 3,
+      "tn": 11,
+      "recall": 0.9622641509433962,
+      "miss_rate": 0.03773584905660377,
+      "false_reject_rate": 0.21428571428571427,
+      "precision": 0.9714285714285714,
+      "accuracy": 0.9416666666666667,
+      "balanced_accuracy": 0.8739892183288409
+    },
+    "baseline_always_fail": {
+      "tp": 106,
+      "fn": 0,
+      "fp": 14,
+      "tn": 0,
+      "recall": 1.0,
+      "miss_rate": 0.0,
+      "false_reject_rate": 1.0,
+      "precision": 0.8833333333333333,
+      "accuracy": 0.8833333333333333,
+      "balanced_accuracy": 0.5
+    },
+    "seconds_total": 2.4336588999722153
+  }
+}
