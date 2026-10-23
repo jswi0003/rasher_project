@@ -230,3 +230,4 @@ results/runs/*/weights/last.pt
 # Throwaway pipeline checks
 results/runs/smoke*/
 results/smoke/
+/weights/
