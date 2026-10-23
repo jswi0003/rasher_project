@@ -222,3 +222,11 @@ __marimo__/
 # Downloaded datasets: keep the folder's README, ignore everything else
 data/*
 !data/README.md
+
+# Model weights: ignore downloaded pretrained weights and last-epoch checkpoints,
+# keep each run's best.pt so results can be reproduced without retraining.
+/*.pt
+results/runs/*/weights/last.pt
+# Throwaway pipeline checks
+results/runs/smoke*/
+results/smoke/
