@@ -1,0 +1,33 @@
+         191105 function calls (155267 primitive calls) in 1.082 seconds
+
+   Ordered by: cumulative time
+   List reduced from 219 to 25 due to restriction <25>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      160    0.001    0.000    1.064    0.007 {method 'send' of 'generator' objects}
+      160    0.011    0.000    1.063    0.007 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\engine\predictor.py:321(stream_inference)
+       80    0.000    0.000    0.625    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\engine\predictor.py:209(inference)
+ 17280/80    0.019    0.000    0.625    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\torch\nn\modules\module.py:1779(_wrapped_call_impl)
+ 17280/80    0.028    0.000    0.625    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\torch\nn\modules\module.py:1787(_call_impl)
+       80    0.001    0.000    0.624    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\autobackend.py:302(forward)
+       80    0.000    0.000    0.621    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\backends\pytorch.py:80(forward)
+       80    0.000    0.000    0.621    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\tasks.py:146(forward)
+       80    0.001    0.000    0.621    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\tasks.py:164(predict)
+       80    0.008    0.000    0.620    0.008 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\tasks.py:181(_predict_once)
+     4560    0.008    0.000    0.440    0.000 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\modules\conv.py:89(forward_fuse)
+     5120    0.006    0.000    0.367    0.000 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\torch\nn\modules\conv.py:564(forward)
+     5120    0.006    0.000    0.357    0.000 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\torch\nn\modules\conv.py:546(_conv_forward)
+     5120    0.352    0.000    0.352    0.000 {built-in method torch.conv2d}
+      640    0.006    0.000    0.334    0.001 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\modules\block.py:311(forward)
+      720    0.002    0.000    0.191    0.000 {method 'extend' of 'list' objects}
+     1440    0.001    0.000    0.182    0.000 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\modules\block.py:314(<genexpr>)
+      160    0.000    0.000    0.181    0.001 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\engine\predictor.py:368(<genexpr>)
+      160    0.001    0.000    0.181    0.001 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\data\loaders.py:432(__next__)
+       80    0.001    0.000    0.180    0.002 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\utils\patches.py:22(imread)
+      800    0.013    0.000    0.178    0.000 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\modules\block.py:480(forward)
+       80    0.001    0.000    0.169    0.002 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\modules\head.py:180(forward)
+       80    0.163    0.002    0.163    0.002 {imdecode}
+       80    0.003    0.000    0.138    0.002 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\ultralytics\nn\modules\head.py:169(forward_head)
+      480    0.003    0.000    0.125    0.000 C:\Users\JHSwi\Downloads\MMA3001\rasher_project\.venv\Lib\site-packages\torch\nn\modules\container.py:254(forward)
+
+
